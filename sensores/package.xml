@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>sensores_info</name>
+  <name>sensores</name>
   <version>0.0.1</version>
-  <description>The sensores_info package</description>
+  <description>The sensores package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
