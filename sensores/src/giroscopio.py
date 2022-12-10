@@ -302,10 +302,10 @@ class IMU:
 
 
 def run():
+    rospy.loginfo("sensor giroscopio. iniciado com sucesso.")
     imu = IMU()
     rate = rospy.Rate(1)
     pub = rospy.Publisher('/cpu_temp', String, queue_size=10)
-    rospy.loginfo("sensor temperatura da cpu. iniciado com sucesso.")
 
     while not rospy.is_shutdown():
         imu.filter_rpy()
@@ -314,6 +314,6 @@ def run():
 
 
 if __name__ == '__main__':
-    rospy.init_node("SystemInfo")
-    rospy.loginfo("Iniciando node sensor temperatura da cpu.")
+    rospy.init_node("GyroInfo")
+    rospy.loginfo("Iniciando node sensor giroscopio.")
     run()
