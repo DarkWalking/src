@@ -1,0 +1,4 @@
+<launch>
+
+    <node name="SystemInfo" pkg="sensores" type="system_info.py" output="screen"></node>
+</launch>

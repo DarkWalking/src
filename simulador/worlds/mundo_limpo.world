@@ -1,0 +1,15 @@
+<?xml vervion="1.0" encoding="UTf-8"?>
+<sdf vervion="1.5">
+	<world name="default">
+		<include>
+			<url>
+				model://sun
+			</url>
+		</include>
+		<include>
+			<url>
+				model://ground_plane
+			</url>
+		</include>
+	</world>
+</sdf>
